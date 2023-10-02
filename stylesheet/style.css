@@ -64,7 +64,7 @@ nav ul li a:hover{
 }
 .content{
     position: absolute;
-    top: 50%;
+    top: 46%;
     left:8%;
     transform: translateY(-50%);
 }
@@ -82,6 +82,7 @@ h4{
     color: black;
     letter-spacing: 2px;
     font-size: 20px;
+    top: 50%;
 }
 .newsletter form{
     width:380px;
@@ -90,6 +91,70 @@ h4{
 }
 .newsletter form input:first-child{
     display:inline-block;
-    width:10%;
-    padding:140x;
+    width:100%;
+    padding:14px 130px 14px 15px;
+    border: 2px solid rgb(118, 29, 156);
+    outline: none;
+    border-radius: 30px;
+}
+.newsletter form input:last-child{
+    position:absolute;
+    display:inline-block;
+    outline:none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color:rgb(118, 29, 156);
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px, 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url(../img/pexels-simon-berger-1323550.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.about img{
+    height:auto;
+    width:430px;
+
+}
+.about-text{
+    width:550px;  
+    color: white; 
+    
+}
+
+.main{
+    width:1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.about-text h2{
+    color: white;
+    font-size:75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color:white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color:blanchedalmond;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size:18px;
+    margin-bottom: 45px;
 }
